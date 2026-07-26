@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Systems Engineer — Production AI, Built to Run Without Babysitting</title>
+<meta name="description" content="Production AI systems: reliable agents, workflow orchestration, and business automation, engineered with validation, observability, and human control built in.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style 4.css">
+</head>
+<body>
+
+<!-- Blueprint grid background, fixed across whole page -->
+<div class="grid-bg" aria-hidden="true"></div>
+<div class="grid-vignette" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark" aria-label="Home">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <circle cx="6" cy="14" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="22" cy="6" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="22" cy="22" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M9 14H14M14 14L19 8M14 14L19 20" stroke="currentColor" stroke-width="1.6"/>
+      </svg>
+      <span>Rebzy</span>
+    </a>
+    <nav class="nav-links">
+  <a href="#philosophy">Principles</a>
+  <a href="#capabilities">Services</a>
+  <a href="#process">Workflow</a>
+  <a href="#work">Projects</a>
+  <a href="#stack">Technology</a>
+  </nav>
+  
+<a href="#contact" class="btn btn-ghost nav-cta"> Start a project</a>
+
+<button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<nav class="nav-mobile" id="navMobile">
+  <a href="#philosophy">Principles</a>
+  <a href="#capabilities">Services</a>
+  <a href="#process">Workflow</a>
+  <a href="#work">Projects</a>
+  <a href="#stack">Technology</a>
+  <a href="#contact" class="btn btn-primary">Start a project</a>
+</nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-field" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+       <p class="eyebrow">
+  <span class="eyebrow-bar"></span>
+  Divine Ereba · AI Systems Engineer
+</p>
+        <h1 class="hero-title">
+          Production AI systems.<br>
+          <span class="hero-title-accent">Built to run without<br>babysitting.</span>
+        </h1>
+        <p class="hero-sub">
+I design production-grade AI systems that automate real business operations. Combining AI agents, workflow automation, and APIs, with deterministic logic handling every critical decision. Built for uptime, not demos.</p>
+        <p class="hero-credibility">
+Based in Port Harcourt, Nigeria · Building production AI systems for businesses worldwide.
+</p>
+        <div class="hero-actions">
+          <a href="#process" class="btn btn-primary">See how I work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-graph" aria-hidden="false">
+        <span class="hero-graph-coord hgc-tl">HOVER TO INSPECT</span>
+        <span class="hero-graph-coord hgc-br">SYSTEM // LIVE</span>
+        <svg viewBox="0 0 520 560" class="graph-svg">
+          <defs>
+            <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
+              <feGaussianBlur stdDeviation="4" result="blur"/>
+              <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+          </defs>
+
+          <!-- connectors -->
+          <path id="ea1" class="graph-edge" d="M90,150 C150,170 180,200 222,215" />
+          <path id="ea2" class="graph-edge" d="M90,310 C150,290 180,260 222,227" />
+          <path id="ea3" class="graph-edge" d="M242,208 C300,178 340,140 393,105" />
+          <path id="ea4" class="graph-edge" d="M244,216 C300,220 360,225 413,228" />
+          <path id="ea5" class="graph-edge" d="M242,224 C300,270 350,320 393,355" />
+          <path id="ea6" class="graph-edge" d="M230,232 C230,282 230,340 230,388" />
+          <path id="ea7" class="graph-edge" d="M230,412 C230,440 230,470 230,488" />
+          <path id="ea8" class="graph-edge" d="M413,240 C420,280 410,320 400,350" />
+
+          <!-- data pulses traveling the connectors -->
+          <circle class="graph-pulse" r="3">
+            <animateMotion dur="3s" repeatCount="indefinite" begin="0s"><mpath href="#ea1"/></animateMotion>
+          </circle>
+          <circle class="graph-pulse graph-pulse--signal" r="3">
+            <animateMotion dur="3.2s" repeatCount="indefinite" begin=".7s"><mpath href="#ea4"/></animateMotion>
+          </circle>
+          <circle class="graph-pulse" r="3">
+            <animateMotion dur="2.6s" repeatCount="indefinite" begin="1.3s"><mpath href="#ea6"/></animateMotion>
+          </circle>
+          <circle class="graph-pulse" r="3">
+            <animateMotion dur="2.2s" repeatCount="indefinite" begin="1.9s"><mpath href="#ea7"/></animateMotion>
+          </circle>
+
+          <!-- nodes: hover or focus reveals the tooltip label -->
+          <g class="graph-node" tabindex="0" role="img" aria-label="Validation">
+            <circle cx="90" cy="150" r="6" filter="url(#nodeGlow)"/>
+            <g class="graph-tooltip" transform="translate(90,150) translate(-46,20)">
+              <rect width="92" height="24" rx="7"/>
+              <text x="46" y="16">Validation</text>
+            </g>
+          </g>
+          <g class="graph-node" tabindex="0" role="img" aria-label="Human Review">
+            <circle cx="90" cy="310" r="6" filter="url(#nodeGlow)"/>
+            <g class="graph-tooltip" transform="translate(90,310) translate(-52,-44)">
+              <rect width="104" height="24" rx="7"/>
+              <text x="52" y="16">Human Review</text>
+            </g>
+          </g>
+          <g class="graph-node is-hub" tabindex="0" role="img" aria-label="AI Agent">
+            <circle cx="232" cy="220" r="11" filter="url(#nodeGlow)"/>
+            <g class="graph-tooltip" transform="translate(232,220) translate(-40,-46)">
+              <rect width="80" height="24" rx="7"/>
+              <text x="40" y="16">AI Agent</text>
+            </g>
+          </g>
+          <g class="graph-node" tabindex="0" role="img" aria-label="CRM">
+            <circle cx="400" cy="100" r="5.5" filter="url(#nodeGlow)"/>
+            <g class="graph-tooltip" transform="translate(400,100) translate(-30,20)">
+              <rect width="60" height="24" rx="7"/>
+              <text x="30" y="16">CRM</text>
+            </g>
+          </g>
+          <g class="graph-node is-signal" tabindex="0" role="img" aria-label="Payments">
+            <circle cx="420" cy="230" r="6.5" filter="url(#nodeGlow)"/>
+            <g class="graph-tooltip" transform="translate(420,230) translate(-70,-44)">
+              <rect width="88" height="24" rx="7"/>
+              <text x="44" y="16">Payments</text>
+            </g>
+          </g>
+          <g class="graph-node" tabindex="0" role="img" aria-label="Notifications">
+            <circle cx="400" cy="356" r="6" filter="url(#nodeGlow)"/>
+            <g class="graph-tooltip" transform="translate(400,356) translate(-92,-14)">
+              <rect width="112" height="24" rx="7"/>
+              <text x="56" y="16">Notifications</text>
+            </g>
+          </g>
+          <g class="graph-node is-signal" tabindex="0" role="img" aria-label="Database">
+            <circle cx="230" cy="400" r="6.5" filter="url(#nodeGlow)"/>
+            <g class="graph-tooltip" transform="translate(230,400) translate(-40,20)">
+              <rect width="80" height="24" rx="7"/>
+              <text x="40" y="16">Database</text>
+            </g>
+          </g>
+          <g class="graph-node" tabindex="0" role="img" aria-label="Analytics">
+            <circle cx="230" cy="500" r="6" filter="url(#nodeGlow)"/>
+            <g class="graph-tooltip" transform="translate(230,500) translate(-40,20)">
+              <rect width="80" height="24" rx="7"/>
+              <text x="40" y="16">Analytics</text>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ============ PHILOSOPHY ============ -->
+  <section class="section" id="philosophy">
+    <div class="section-inner">
+      <p class="section-eyebrow">01 / Principles</p>
+      <h2 class="section-title">How I build AI systems.</h2>
+      <p class="section-lede">Models are unreliable narrators. The system around them is what makes a workflow safe to run in production.</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-body">
+            <h3>AI reasons. Code decides.</h3>
+            <p>The model suggests. Fixed logic makes the call, so the same input gets the same outcome.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-body">
+            <h3>Deterministic validation before business logic executes.</h3>
+            <p>Every input is checked against fixed rules before a workflow runs, so bad data never reaches production logic.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-body">
+            <h3>Humans stay in control.</h3>
+            <p>High-stakes steps wait for a person to approve them. The system flags; it does not act alone.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-body">
+            <h3>Fail safely.</h3>
+            <p>When a step breaks, the workflow stops in a known state instead of guessing what to do next.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-body">
+            <h3>Every workflow is observable.</h3>
+            <p>Each run leaves a log: what triggered it, what it did, and where it stands now.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-body">
+            <h3>Reliability before intelligence.</h3>
+            <p>A slower system that works every time beats a clever one that works most of the time.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-body">
+            <h3>Production over prototypes.</h3>
+            <p>A demo proves an idea. A production system proves it can run unattended, for months, without you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="section" id="capabilities">
+    <div class="section-inner">
+      <p class="section-eyebrow">02 / Services</p>
+      <h2 class="section-title">What I build.</h2>
+      <div class="cap-grid">
+        <div class="cap-card">
+          <div class="cap-icon">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 19c0-3.5 3-6 7-6s7 2.5 7 6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>AI agents &amp; chat systems</h3>
+          <p>Assistants that answer, route, and act, connected to your real data instead of guessing.</p>
+        </div>
+        <div class="cap-card">
+          <div class="cap-icon">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="4" cy="11" r="2.5" stroke="currentColor" stroke-width="1.5"/><circle cx="18" cy="5" r="2.5" stroke="currentColor" stroke-width="1.5"/><circle cx="18" cy="17" r="2.5" stroke="currentColor" stroke-width="1.5"/><path d="M6.3 10 15.7 6M6.3 12 15.7 16" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Workflow orchestration</h3>
+          <p>Multi-step automations across the tools you already use, so work moves between them on its own.</p>
+        </div>
+        <div class="cap-card">
+          <div class="cap-icon">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="3" y="3" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="12" y="12" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.5"/><path d="M10 6.5h5a1.5 1.5 0 0 1 1.5 1.5v4M12 15.5H7A1.5 1.5 0 0 1 5.5 14v-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Business process automation</h3>
+          <p>The repeat tasks behind sales, support, and admin, rebuilt to run in the background.</p>
+        </div>
+        <div class="cap-card">
+          <div class="cap-icon">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M8 4 3 11l5 7M14 4l5 7-5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Integration &amp; API work</h3>
+          <p>Clean connections between apps, payment systems, and databases, built to hold up under real traffic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCTION PRINCIPLES ============ -->
+  <section class="section" id="principles">
+    <div class="section-inner">
+      <p class="section-eyebrow"></p>
+      <h2 class="section-title">Engineering Decisions...</h2>
+      <p class="section-lede">The parts that do not show up in a demo, but decide whether a system survives contact with real use.</p>
+
+      <div class="principle-grid">
+        <div class="principle-card">
+          <span class="principle-check">✓</span>
+          <h3>Prompt injection protection</h3>
+          <p>Inputs are sanitized and boundaries enforced, so a crafted message cannot hijack the agent.</p>
+        </div>
+        <div class="principle-card">
+          <span class="principle-check">✓</span>
+          <h3>Deterministic validation</h3>
+          <p>Fixed rules check every output before it moves to the next step.</p>
+        </div>
+        <div class="principle-card">
+          <span class="principle-check">✓</span>
+          <h3>Structured outputs</h3>
+          <p>Models return typed, schema-checked data, not free text to parse and hope.</p>
+        </div>
+        <div class="principle-card">
+          <span class="principle-check">✓</span>
+          <h3>Retry logic</h3>
+          <p>Transient failures retry on their own, within limits, before anything alerts a human.</p>
+        </div>
+        <div class="principle-card">
+          <span class="principle-check">✓</span>
+          <h3>Human approval gates</h3>
+          <p>Steps with real consequences pause for a person to confirm before they run.</p>
+        </div>
+        <div class="principle-card">
+          <span class="principle-check">✓</span>
+          <h3>Observability</h3>
+          <p>Every run is logged and traceable, so a failure is easy to find and explain.</p>
+        </div>
+        <div class="principle-card">
+          <span class="principle-check">✓</span>
+          <h3>Error recovery</h3>
+          <p>A broken step fails into a safe state and can resume without losing data.</p>
+        </div>
+        <div class="principle-card">
+          <span class="principle-check">✓</span>
+          <h3>Idempotent workflows</h3>
+          <p>Running a step twice by accident does not double-charge, double-send, or double-write.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="section" id="process">
+    <div class="section-inner">
+      <p class="section-eyebrow">03 / Workflow</p>
+      <h2 class="section-title">How it runs...</h2>
+      <ol class="process-list">
+        <li class="process-step">
+          <span class="process-num">01</span>
+          <div class="process-body">
+            <h3>Diagnose</h3>
+            <p>I map the current process step by step and find where time and accuracy are lost. No build starts before this.</p>
+          </div>
+        </li>
+        <li class="process-step">
+          <span class="process-num">02</span>
+          <div class="process-body">
+            <h3>Design</h3>
+            <p>I plan the system on paper first: triggers, data flow, failure points, and what happens when a step breaks.</p>
+          </div>
+        </li>
+        <li class="process-step">
+          <span class="process-num">03</span>
+          <div class="process-body">
+            <h3>Build</h3>
+            <p>I build in working slices you can see early, test against real data, and adjust before anything goes live.</p>
+          </div>
+        </li>
+        <li class="process-step">
+          <span class="process-num">04</span>
+          <div class="process-body">
+            <h3>Operate</h3>
+            <p>I hand over documentation and logging, so the system stays clear to run and easy to hand off.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ ARCHITECTURE ============ -->
+  <section class="section" id="architecture">
+    <div class="section-inner">
+      <p class="section-eyebrow"></p>
+      <h2 class="section-title">A typical request, end to end.</h2>
+      <p class="section-lede">Every system I build follows this shape: validate before you trust, decide with code, and leave a record behind.</p>
+
+      <div class="arch-flow">
+        <div class="arch-step"><span class="arch-num">01</span><span class="arch-label">User</span></div>
+        <div class="arch-step"><span class="arch-num">02</span><span class="arch-label">Webhook</span></div>
+        <div class="arch-step"><span class="arch-num">03</span><span class="arch-label">Validation layer</span></div>
+        <div class="arch-step"><span class="arch-num">04</span><span class="arch-label">LLM</span></div>
+        <div class="arch-step is-signal"><span class="arch-num">05</span><span class="arch-label">Deterministic checks</span></div>
+        <div class="arch-step"><span class="arch-num">06</span><span class="arch-label">Business logic</span></div>
+        <div class="arch-step"><span class="arch-num">07</span><span class="arch-label">CRM</span></div>
+        <div class="arch-step"><span class="arch-num">08</span><span class="arch-label">Notifications</span></div>
+        <div class="arch-step"><span class="arch-num">09</span><span class="arch-label">Logs</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="section" id="work">
+    <div class="section-inner">
+      <p class="section-eyebrow">04 / Projects</p>
+      <h2 class="section-title">Selected projects.</h2>
+<p class="section-lede">
+Explore production-ready AI automation systems built to solve real operational problems. Click a project for more details
+</p>
+      <div class="work-grid">
+        <a href="case-study-lead.html" class="work-card-link" >
+        
+        <article class="work-card">
+  <div class="work-thumb">
+    <img src="images/lead-triage.jpg" alt="AI Lead Qualification System" loading="lazy">
+  </div>
+
+  <div class="work-body">
+
+  <span class="work-tag">Real Estate</span>
+
+  <h3>AI Lead Qualification System</h3>
+
+  <p class="work-summary">
+    Qualified, scored, and routed inbound property enquiries before they reached a sales agent.
+  </p>
+
+  <div class="work-section">
+    <h4>Problem</h4>
+    <p>
+      Sales teams were manually reading enquiries, identifying buyer intent,
+      and deciding who to contact first, leading to slow response times and inconsistent qualification.
+    </p>
+  </div>
+
+  <div class="work-section">
+    <h4>Solution</h4>
+    <p>
+      Built an AI workflow that classifies enquiries, extracts structured data,
+      scores lead quality, validates AI output with deterministic rules,
+      and routes qualified leads directly into the CRM.
+    </p>
+  </div>
+
+  <div class="work-section">
+    <h4>Key Engineering Decisions</h4>
+
+    <ul class="work-highlights">
+      <li>LLM reasoning with deterministic validation</li>
+      <li>Structured JSON output enforcement</li>
+      <li>Prompt injection protection</li>
+      <li>Automatic CRM routing</li>
+      <li>Telegram alerts for high-value leads</li>
+    </ul>
+  </div>
+
+  <div class="work-section">
+    <h4>Tech Stack</h4>
+
+    <ul class="work-tech">
+
+        <li>
+            <img src="images/n8n.png" alt="n8n" class="work-tech-logo">
+            <span>n8n</span>
+        </li>
+
+        <li>
+            <img src="images/OpenAI.png" alt="OpenAI" class="work-tech-logo">
+            <span>OpenAI</span>
+        </li>
+
+        <li>
+            <img src="images/javascript.png" alt="JavaScript" class="work-tech-logo">
+            <span>JavaScript</span>
+        </li>
+
+        <li>
+            <img src="images/airtable.png" alt="Airtable" class="work-tech-logo">
+            <span>Airtable</span>
+        </li>
+
+        <li>
+            <img src="images/REST API.png" alt="REST API" class="work-tech-logo">
+            <span>REST APIs</span>
+        </li>
+
+    </ul>
+</div>
+
+  <div class="work-section">
+    <h4>Outcome</h4>
+
+    <p>
+      Reduced manual qualification while ensuring every lead entered the pipeline
+      with validated, structured data.
+    </p>
+
+    <div class="work-cta">
+    Click to explore project →
+</div>
+  </div>
+  
+</div>
+</article>
+
+  
+</a>
+
+<a href="case-study-support.html" class="work-card-link">  
+  <article class="work-card">
+
+
+<div class="work-thumb">
+<img src="images/customer-support.png" alt="AI Customer Support Platform" loading="lazy">
+</div>
+
+<div class="work-body">
+
+  <span class="work-tag">E-commerce Customer Support</span>
+
+  <h3>Multimodal Customer Support Platform</h3>
+
+  <p class="work-summary">
+    Automated customer support across text, voice notes, images, and documents while keeping human agents in control.
+  </p>
+
+  <div class="work-section">
+    <h4>Problem</h4>
+    <p>
+      Support agents spent significant time reading customer messages, interpreting attachments, updating records, and manually routing requests to the correct teams.
+    </p>
+  </div>
+
+  <div class="work-section">
+    <h4>Solution</h4>
+    <p>
+      Built a multimodal AI support workflow that understands customer inputs, classifies requests, prevents duplicate tickets, updates the CRM automatically, and escalates complex conversations when needed.
+    </p>
+  </div>
+
+  <div class="work-section">
+    <h4>Key Engineering Decisions</h4>
+
+    <ul class="work-highlights">
+      <li>Text, voice, image, and document processing</li>
+      <li>Duplicate ticket detection</li>
+      <li>Structured AI response validation</li>
+      <li>Automatic CRM synchronization</li>
+      <li>Human escalation for edge cases</li>
+    </ul>
+  </div>
+
+ <div class="work-section">
+  <h4>Tech Stack</h4>
+
+  <ul class="work-tech">
+
+    <li>
+      <img src="images/n8n.png" alt="n8n" class="work-tech-logo">
+      <span>n8n</span>
+    </li>
+
+    <li>
+      <img src="images/telegram.png" alt="Telegram" class="work-tech-logo">
+      <span>Telegram</span>
+    </li>
+
+    <li>
+      <img src="images/OpenAI.png" alt="OpenAI" class="work-tech-logo">
+      <span>OpenAI</span>
+    </li>
+
+    <li>
+      <img src="images/Google sheets.png" alt="Google Sheets" class="work-tech-logo">
+      <span>Google Sheets</span>
+    </li>
+
+    <li>
+      <img src="images/javascript.png" alt="JavaScript" class="work-tech-logo">
+      <span>JavaScript</span>
+    </li>
+
+  </ul>
+</div>
+
+  <div class="work-section">
+    <h4>Outcome</h4>
+
+    <p>
+      Reduced repetitive support work by automatically organizing customer requests while maintaining complete conversation history and operational visibility.
+    </p>
+
+    <div class="work-cta">
+    Click to explore project →
+</div>
+  </div>
+
+ </div>
+</article>
+
+</a>
+
+
+
+<a href="case-study-invoice.html" class="work-card-link">
+        <article class="work-card">
+        
+
+<div class="work-thumb">
+
+<img src="images/invoice.png" alt="Invoice & Payment Automation" loading="lazy">
+
+</div>
+
+<div class="work-body">
+
+  <span class="work-tag">Finance Operations</span>
+
+  <h3>Invoice & Payment Automation</h3>
+
+  <p class="work-summary">
+    Automated invoice generation, payment tracking, and financial notifications to eliminate repetitive accounting workflows.
+  </p>
+
+  <div class="work-section">
+    <h4>Problem</h4>
+    <p>
+      Staff manually generated invoices, checked payment status, sent reminders, and updated financial records across multiple systems, creating delays and unnecessary administrative work.
+    </p>
+  </div>
+
+  <div class="work-section">
+    <h4>Solution</h4>
+    <p>
+      Built an automated finance workflow that generates invoices, verifies payments, sends reminder notifications, updates business records, and synchronizes every transaction across connected services.
+    </p>
+  </div>
+
+  <div class="work-section">
+    <h4>Key Engineering Decisions</h4>
+
+    <ul class="work-highlights">
+      <li>Event-driven invoice generation</li>
+      <li>Automatic payment verification</li>
+      <li>PDF invoice generation</li>
+      <li>Retry logic for failed notifications</li>
+      <li>Complete transaction logging</li>
+    </ul>
+  </div>
+
+  <div class="work-section">
+  <h4>Tech Stack</h4>
+
+  <ul class="work-tech">
+
+    <li>
+      <img src="images/n8n.png" alt="n8n" class="work-tech-logo">
+      <span>n8n</span>
+    </li>
+
+    <li>
+      <img src="images/paystack.png" alt="Paystack" class="work-tech-logo">
+      <span>Paystack</span>
+    </li>
+
+    <li>
+      <img src="images/PDF Monkey.jpg" alt="PDFMonkey" class="work-tech-logo">
+      <span>PDFMonkey</span>
+    </li>
+
+    <li>
+     <img src="images/REST API.png" alt="REST APIs" class="work-tech-logo">
+      <span>REST APIs</span>
+    </li>
+
+    <li>
+      <img src="images/javascript.png" alt="JavaScript" class="work-tech-logo">
+      <span>JavaScript</span>
+    </li>
+
+  </ul>
+</div>
+
+  <div class="work-section">
+    <h4>Outcome</h4>
+
+    <p>
+      Removed repetitive finance administration, improved payment visibility, and created a reliable workflow for invoice creation and payment reconciliation.
+    </p>
+
+    <div class="work-cta">
+    Click to explore project →
+</div>
+  </div>
+
+  </div>
+</article>
+
+</a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STACK ============ -->
+ <section class="section" id="stack">
+  <div class="section-inner">
+
+    <p class="section-eyebrow">05 / Technology</p>
+
+    <h2 class="section-title">
+      Technologies behind every workflow.
+    </h2>
+
+    <p class="section-lede">
+      Production-ready automation is built by combining AI, software engineering, APIs, and reliable infrastructure into deterministic business systems.
+    </p>
+
+    <div class="stack-groups">
+
+  <div class="stack-group">
+    <p class="stack-group-label">Automation</p>
+
+    <div class="stack-chip">
+      <img src="images/n8n.png" alt="n8n" class="stack-logo">
+      <span>n8n</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/Make.png" alt="Make" class="stack-logo">
+      <span>Make</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/zapier.png" alt="Zapier" class="stack-logo">
+      <span>Zapier</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <p class="stack-group-label">AI</p>
+
+    <div class="stack-chip">
+      <img src="images/OpenAI.png" alt="OpenAI" class="stack-logo">
+      <span>OpenAI</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/claude.png" alt="Claude" class="stack-logo">
+      <span>Claude</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/gemini.png" alt="Gemini" class="stack-logo">
+      <span>Gemini</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <p class="stack-group-label">Programming</p>
+
+    <div class="stack-chip">
+      <img src="images/javascript.png" alt="JavaScript" class="stack-logo">
+      <span>JavaScript</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <p class="stack-group-label">Infrastructure</p>
+
+    <div class="stack-chip">
+      <img src="images/docker.png" alt="Docker" class="stack-logo">
+      <span>Docker</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/postgresql.png" alt="PostgreSQL" class="stack-logo">
+      <span>PostgreSQL</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/git.png" alt="Git" class="stack-logo">
+      <span>Git</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/Githubs.png" alt="GitHub" class="stack-logo">
+      <span>GitHub</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <p class="stack-group-label">CRM</p>
+
+    <div class="stack-chip">
+      <img src="images/GoHighLevel.jpeg" alt="GoHighLevel" class="stack-logo">
+      <span>GoHighLevel</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/airtable.png" alt="Airtable" class="stack-logo">
+      <span>Airtable</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <p class="stack-group-label">Communication</p>
+
+    <div class="stack-chip">
+      <img src="images/telegram.png" alt="Telegram" class="stack-logo">
+      <span>Telegram</span>
+    </div>
+
+     <div class="stack-chip">
+      <img src="images/whatsapp.png" alt="WhatsApp" class="stack-logo">
+      <span>WhatsApp</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/gmail.png" alt="Gmail" class="stack-logo">
+      <span>Gmail</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <p class="stack-group-label">Payments</p>
+
+    <div class="stack-chip">
+      <img src="images/paystack.png" alt="Paystack" class="stack-logo">
+      <span>Paystack</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/stripe.png" alt="Stripe" class="stack-logo">
+      <span>Stripe</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <p class="stack-group-label">Integrations</p>
+
+    <div class="stack-chip">
+      <img src="images/google.png" alt="Google Workspace" class="stack-logo">
+      <span>Google Workspace</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/notion.png" alt="Notion" class="stack-logo">
+      <span>Notion</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/REST API.png" alt="REST APIs" class="stack-logo">
+      <span>REST APIs</span>
+    </div>
+
+    <div class="stack-chip">
+      <img src="images/Webhooks.png" alt="Webhooks" class="stack-logo">
+      <span>Webhooks</span>
+    </div>
+  </div>
+
+</div>
+</section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-contact" id="contact">
+    <div class="section-inner">
+     <div class="contact-card">
+
+  <p class="section-eyebrow">Contact</p>
+
+  <h2 class="section-title contact-title">
+    Every business has one routine that takes longer than it should.
+  </h2>
+
+  <p class="section-lede contact-lede">
+    Let's fix yours.
+  </p>
+
+  <div class="contact-actions">
+    <a href="mailto:divine.workflows@gmail.com" class="btn btn-primary">
+      divine.workflows@gmail.com
+    </a>
+          <a href="https://www.linkedin.com/in/divine-ereba-58aa232a7?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+    LinkedIn
+</a>
+          <a href="https://github.com/divine-ereba" class="btn btn-ghost">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© <span id="year"></span> — AI Systems Engineer</span>
+    <span>Built and hosted on GitHub Pages</span>
+  </div>
+</footer>
+
+<script src="main3.js" defer></script>
+</body>
+</html>

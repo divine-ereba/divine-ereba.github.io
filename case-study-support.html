@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Lead Qualification System</title>
+
+<link rel="stylesheet" href="style 4.css">
+</head>
+
+<body>
+    <div class="grid-bg" aria-hidden="true"></div>
+<div class="grid-vignette" aria-hidden="true"></div>
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-mark" aria-label="Home">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <circle cx="6" cy="14" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="22" cy="6" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="22" cy="22" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M9 14H14M14 14L19 8M14 14L19 20" stroke="currentColor" stroke-width="1.6"/>
+      </svg>
+      <span>Rebzy</span>
+    </a>
+   <nav class="nav-links">
+  <a href="index.html#philosophy">Principles</a>
+  <a href="index.html#capabilities">Services</a>
+  <a href="index.html#process">Workflow</a>
+  <a href="index.html#work">Projects</a>
+  <a href="index.html#stack">Technology</a>
+</nav>
+
+<a href="index.html#contact">Start a project</a>
+
+<button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+</div>
+
+<nav class="nav-mobile" id="navMobile">
+  <a href="index.html#philosophy">Principles</a>
+  <a href="index.html#capabilities">Services</a>
+  <a href="index.html#process">Workflow</a>
+  <a href="index.html#work">Projects</a>
+  <a href="index.html#stack">Technology</a>
+  <a href="index.html#contact" class="btn btn-primary">Start a project</a>
+</nav>
+
+</header>
+
+    <main class="case-study">
+
+  <section class="case-hero">
+    <div class="section-inner">
+
+      <p class="section-eyebrow">
+        Case Study / AI Customer Support Platform
+      </p>
+
+      <h1 class="case-title">
+        AI Customer Support Platform
+      </h1>
+
+      <p class="case-subtitle">
+        Built a multimodal AI support platform that classifies customer requests, routes conversations, prevents duplicate cases, and keeps human operators in control through deterministic workflow orchestration.
+      </p>
+
+      <div class="case-meta">
+
+        <div class="meta-item">
+          <span>Industry</span>
+          <strong>Business Operations</strong>
+        </div>
+
+        <div class="meta-item">
+          <span>Role</span>
+          <strong>AI Systems Engineer</strong>
+        </div>
+
+        <div class="meta-item">
+    <span>Stack</span>
+
+    <div class="case-stack">
+
+        <img src="images/n8n.png" alt="n8n" class="case-stack-logo">
+
+        <img src="images/OpenAI.png" alt="OpenAI" class="case-stack-logo">
+
+        <img src="images/javascript.png" alt="JavaScript" class="case-stack-logo">
+
+        <img src="images/telegram.png" alt="Telegram" class="case-stack-logo">
+
+        <img src="images/gmail.png" alt="Gmail" class="case-stack-logo">
+
+        <img src="images/Google sheets.png" alt="Google Sheets" class="case-stack-logo">
+
+    </div>
+</div>
+
+      <img
+        src="images/customer workflow.jpg"
+        alt="AI Lead Qualification System"
+        class="case-image"
+      >
+
+    </div>
+  </section>
+
+  <section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow">The Problem</p>
+
+<h2 class="section-title">
+  Customer requests come in formats like text, audio, images, and documents, causing standard automation to break down.
+</h2>
+
+    <p class="section-lede">
+      Every enquiry required manual review before an agent could respond.
+      Low-quality leads consumed valuable time, high-quality opportunities
+      were delayed, and inconsistent decision making reduced sales efficiency.
+    </p>
+
+    <div class="problem-grid">
+
+      <div class="problem-card">
+        <h3>Operational Challenge</h3>
+
+        <ul>
+          <li>Customer enquiries arrived through multiple channels.</li>
+          <li>Duplicate tickets increased manual workload.</li>
+          <li>Operators spent time classifying repetitive requests.</li>
+          <li>Follow-ups were inconsistent across cases.</li>
+        </ul>
+      </div>
+
+      <div class="problem-card">
+
+        <h3>System Objectives</h3>
+
+        <ul>
+          <li>Build a single intake pipeline capable of handling inputs of all types ( Texts, Audio, Images, Docs, etc...)</li>
+          <li>Ensure AI performs request understanding while deterministic workflow logic governs every business action.</li>
+          <li>Prevent duplicate tickets and invalid submission before they reach downstream systems.</li>
+          <li>Keep human operators in control by routing low-confidence or high-priority cases for review before execution.</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+   <p class="section-eyebrow">Architecture</p>
+
+<h2 class="section-title">
+System architecture designed for reliable AI-assisted customer support.
+</h2>
+
+    <p class="section-lede">
+The platform separates AI reasoning from workflow execution, allowing customer requests to be classified intelligently while deterministic automation governs routing, validation, notifications, and CRM integration.
+</p>
+
+    <div class="principle-grid">
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+       <h3>Multimodal Intake</h3>
+
+<p>
+The platform accepts text, voice notes, images, and documents through a unified entry point, normalizing every request before AI processing begins.
+</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Deterministic Validation</h3>
+
+<p>
+AI extracts intent and structured data, while workflow logic validates inputs, blocks duplicate requests, and enforces business rules before execution.
+</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Intelligent Routing</h3>
+
+<p>
+Validated requests are automatically classified, prioritised, and routed to the correct CRM pipeline, support queue, or notification workflow.
+</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Human-in-the-Loop</h3>
+
+<p>
+Low-confidence predictions and high-priority cases are escalated for manual review, ensuring automation remains transparent, reliable, and accountable.
+</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>CRM Routing</h3>
+        <p>Qualified leads are automatically written into the CRM pipeline.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Alerts & Logging</h3>
+        <p>High-priority enquiries trigger notifications while every workflow run is logged for traceability.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow">Workflow</p>
+
+<h2 class="section-title">
+End-to-end customer support workflow.
+</h2>
+
+<p class="section-lede">
+Every customer request moves through a deterministic automation pipeline before reaching the appropriate support team, ensuring consistent classification, validation, routing, and follow-up.
+</p>
+
+    <div class="workflow-preview">
+
+      <img
+        src="images/customer workflow canvas.png"
+        alt="Lead qualification workflow"
+        class="workflow-image"
+      >
+
+    </div>
+
+    <div class="workflow-steps">
+
+  <div class="workflow-step">
+    <span>01</span>
+    <div>
+      <h3>Request Received</h3>
+      <p>Customer submits a message, voice note, image, or document through the support platform.</p>
+    </div>
+  </div>
+
+  <div class="workflow-step">
+    <span>02</span>
+    <div>
+      <h3>AI Classification</h3>
+      <p>The language model analyzes the request, extracts intent, determines priority, and generates structured metadata for downstream processing.</p>
+    </div>
+  </div>
+
+  <div class="workflow-step">
+    <span>03</span>
+    <div>
+      <h3>Validation Layer</h3>
+      <p>Deterministic JavaScript logic validates required fields, prevents duplicate tickets, and enforces business rules before execution.</p>
+    </div>
+  </div>
+
+  <div class="workflow-step">
+    <span>04</span>
+    <div>
+      <h3>CRM Integration</h3>
+      <p>Validated requests are routed to the CRM, assigned automatically, and trigger notifications or human review where required.</p>
+    </div>
+  </div>
+
+</div>
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+   <p class="section-eyebrow"></p>
+
+<h2 class="section-title">
+Design decisions that made the support system production-ready.
+</h2>
+
+<p class="section-lede">
+The platform was built as an operational support system rather than a simple AI chatbot. Multimodal intake, AI classification, deterministic validation, priority escalation, case tracking, automated follow-ups, and human review work together to move each request toward resolution.
+</p>
+
+   <div class="principle-grid">
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>Multimodal Intake</h3>
+    <p>
+      Text, voice notes, images, and documents enter the same support workflow, giving customers one consistent channel for different types of requests.
+    </p>
+  </div>
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>AI Classification</h3>
+    <p>
+      The language model identifies intent, summarizes the issue, determines priority, and extracts structured information for the workflow to process.
+    </p>
+  </div>
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>Deterministic Validation</h3>
+    <p>
+      JavaScript validates AI outputs and required fields before execution, preventing malformed requests and keeping business rules outside the model.
+    </p>
+  </div>
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>Priority Escalation</h3>
+    <p>
+      High-priority cases are identified automatically and routed for faster operator attention instead of being treated like routine support requests.
+    </p>
+  </div>
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>Case State Tracking</h3>
+    <p>
+      Each support request can move through a defined lifecycle, making it possible to track active cases, pending actions, follow-ups, and resolution.
+    </p>
+  </div>
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>Automated Follow-up Engine</h3>
+    <p>
+      Cases that require a later response can trigger follow-up workflows automatically, reducing the chance of unresolved requests being forgotten.
+    </p>
+  </div>
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>Duplicate Prevention</h3>
+    <p>
+      Workflow logic checks incoming requests before creating new cases, reducing duplicate tickets and unnecessary work for support operators.
+    </p>
+  </div>
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>Human Escalation</h3>
+    <p>
+      Complex, uncertain, or high-impact cases can be handed to human operators instead of forcing the AI to make a decision outside its confidence or authority.
+    </p>
+  </div>
+
+  <div class="principle-card">
+    <span class="principle-check">✓</span>
+    <h3>Resolution-Oriented Workflow</h3>
+    <p>
+      The system is designed to move requests beyond classification toward a resolved state through case tracking, operator intervention, notifications, and follow-up actions.
+    </p>
+  </div>
+
+</div>
+  </div>
+
+</section>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow"></p>
+
+    <h2 class="section-title">
+      What this project taught me.
+    </h2>
+
+    <div class="timeline">
+
+  <div class="timeline-item">
+    <span class="timeline-dot"></span>
+    <div class="timeline-body">
+      <h3>AI should understand, not execute.</h3>
+      <p>Large language models excel at interpreting customer intent, but deterministic workflow logic should always control business actions.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="timeline-dot"></span>
+    <div class="timeline-body">
+      <h3>Validation is as important as intelligence.</h3>
+      <p>Reliable automation depends on validating inputs, preventing duplicate requests, and enforcing business rules before downstream execution.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="timeline-dot"></span>
+    <div class="timeline-body">
+      <h3>Human oversight increases trust.</h3>
+      <p>Escalating low-confidence or high-priority cases to human operators creates a safer and more dependable support system.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="timeline-dot"></span>
+    <div class="timeline-body">
+      <h3>Observability simplifies maintenance.</h3>
+      <p>Building workflows that expose failures, retries, and execution paths makes production systems easier to debug and continuously improve.</p>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow">Outcome</p>
+
+<h2 class="section-title">
+From customer enquiry to operational workflow. Fully orchestrated.
+</h2>
+
+<p class="section-lede">
+The platform demonstrates how AI can enhance customer support without replacing operational control. Intelligent request understanding, deterministic validation, and automated workflow orchestration work together to create a production-ready system that scales reliably while keeping humans in the decision loop.
+</p>
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow">Continue Reading</p>
+
+    <h2 class="section-title">
+      Explore another project.
+    </h2>
+
+    <div class="contact-actions">
+
+      <a href="case-study-lead.html" class="btn btn-ghost">
+        ← Back
+      </a>
+
+      <a href="case-study-invoice.html" class="btn btn-primary">
+        Invoice Automation →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+</main>
+
+<script src="main3.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Lead Qualification System</title>
+
+<link rel="stylesheet" href="style 4.css">
+</head>
+
+<body>
+    <div class="grid-bg" aria-hidden="true"></div>
+<div class="grid-vignette" aria-hidden="true"></div>
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-mark" aria-label="Home">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <circle cx="6" cy="14" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="22" cy="6" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="22" cy="22" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M9 14H14M14 14L19 8M14 14L19 20" stroke="currentColor" stroke-width="1.6"/>
+      </svg>
+      <span>Rebzy</span>
+    </a>
+   <nav class="nav-links">
+  <a href="index.html#philosophy">Principles</a>
+  <a href="index.html#capabilities">Services</a>
+  <a href="index.html#process">Workflow</a>
+  <a href="index.html#work">Projects</a>
+  <a href="index.html#stack">Technology</a>
+</nav>
+
+<a href="index.html#contact">Start a project</a>
+
+<button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+</div>
+
+<nav class="nav-mobile" id="navMobile">
+  <a href="index.html#philosophy">Principles</a>
+  <a href="index.html#capabilities">Services</a>
+  <a href="index.html#process">Workflow</a>
+  <a href="index.html#work">Projects</a>
+  <a href="index.html#stack">Technology</a>
+  <a href="index.html#contact" class="btn btn-primary">Start a project</a>
+</nav>
+
+</header>
+    <main class="case-study">
+
+  <section class="case-hero">
+    <div class="section-inner">
+
+      <p class="section-eyebrow">
+        Case Study / AI Lead Qualification System
+      </p>
+
+      <h1 class="case-title">
+        AI Lead Qualification System
+      </h1>
+
+      <p class="case-subtitle">
+        A production AI workflow that qualifies inbound real estate enquiries,
+        validates every AI decision, and routes qualified leads into the CRM
+        without manual review.
+      </p>
+
+      <div class="case-meta">
+
+        <div class="meta-item">
+          <span>Industry</span>
+          <strong>Real Estate</strong>
+        </div>
+
+       <div class="meta-item">
+    <span>Stack</span>
+
+    <div class="case-stack">
+
+        <img src="images/n8n.png" alt="n8n" class="case-stack-logo">
+
+        <img src="images/OpenAI.png" alt="OpenAI" class="case-stack-logo">
+
+        <img src="images/javascript.png" alt="JavaScript" class="case-stack-logo">
+
+        <img src="images/airtable.png" alt="Airtable" class="case-stack-logo">
+
+        <img src="images/Webhooks.png" alt="Webhooks" class="case-stack-logo">
+
+    </div>
+</div>
+
+      <img
+        src="images/Workflow.jpg"
+        alt="AI Lead Qualification System"
+        class="case-image"
+      >
+
+    </div>
+  </section>
+
+  <section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow">The Problem</p>
+
+    <h2 class="section-title">
+      Real estate enquiries were arriving faster than they could be qualified.
+    </h2>
+
+    <p class="section-lede">
+      Every enquiry required manual review before an agent could respond.
+      Low-quality leads consumed valuable time, high-quality opportunities
+      were delayed, and inconsistent decision making reduced sales efficiency.
+    </p>
+
+    <div class="problem-grid">
+
+      <div class="problem-card">
+        <h3>Before</h3>
+
+        <ul>
+          <li>Every enquiry reviewed manually.</li>
+          <li>No consistent qualification criteria.</li>
+          <li>Agents wasted time on cold leads.</li>
+          <li>High-value prospects waited too long.</li>
+        </ul>
+      </div>
+
+      <div class="problem-card">
+
+        <h3>Goal</h3>
+
+        <ul>
+          <li>Automatically understand lead intent.</li>
+          <li>Score enquiry quality.</li>
+          <li>Validate AI output before execution.</li>
+          <li>Route qualified leads directly into CRM.</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow"></p>
+
+    <h2 class="section-title">
+      AI reasons. Code decides.
+    </h2>
+
+    <p class="section-lede">
+      The workflow was designed so the language model performs reasoning,
+      while deterministic business logic controls every critical decision.
+      This prevents unreliable AI output from directly affecting production
+      systems.
+    </p>
+
+    <div class="principle-grid">
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Webhook Trigger</h3>
+        <p>Receives incoming enquiries from external sources.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Validation Layer</h3>
+        <p>Sanitises inputs and rejects malformed requests before AI processing.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>AI Reasoning</h3>
+        <p>The LLM classifies intent, extracts structured data, and evaluates lead quality.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Deterministic Checks</h3>
+        <p>JavaScript validates AI output against strict business rules before execution.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>CRM Routing</h3>
+        <p>Qualified leads are automatically written into the CRM pipeline.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Alerts & Logging</h3>
+        <p>High-priority enquiries trigger notifications while every workflow run is logged for traceability.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow">Workflow</p>
+
+    <h2 class="section-title">
+      End-to-end workflow.
+    </h2>
+
+    <p class="section-lede">
+      Every enquiry follows a deterministic pipeline before reaching the sales team.
+      The AI never interacts directly with production systems without validation.
+    </p>
+
+    <div class="workflow-preview">
+
+      <img
+        src="images/workflow_canvas.png"
+        alt="Lead qualification workflow"
+        class="workflow-image"
+      >
+
+    </div>
+
+    <div class="workflow-steps">
+
+      <div class="workflow-step">
+        <span>01</span>
+        <div>
+          <h3>Lead Received</h3>
+          <p>Customer submits a property enquiry through the workflow.</p>
+        </div>
+      </div>
+
+      <div class="workflow-step">
+        <span>02</span>
+        <div>
+          <h3>Input Validation</h3>
+          <p>Incoming data is sanitised before AI processing begins.</p>
+        </div>
+      </div>
+
+      <div class="workflow-step">
+        <span>03</span>
+        <div>
+          <h3>AI Qualification</h3>
+          <p>The language model classifies intent, extracts structured information, and scores the enquiry.</p>
+        </div>
+      </div>
+
+      <div class="workflow-step">
+        <span>04</span>
+        <div>
+          <h3>Business Rule Validation</h3>
+          <p>JavaScript validates every AI decision against deterministic business rules.</p>
+        </div>
+      </div>
+
+      <div class="workflow-step">
+        <span>05</span>
+        <div>
+          <h3>CRM Routing</h3>
+          <p>Qualified leads are written into Airtable while priority enquiries generate Telegram alerts.</p>
+        </div>
+      </div>
+
+      <div class="workflow-step">
+        <span>06</span>
+        <div>
+          <h3>Logging</h3>
+          <p>Every execution is recorded for observability and future debugging.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow"></p>
+
+    <h2 class="section-title">
+      Design decisions that made the system production-ready.
+    </h2>
+
+    <p class="section-lede">
+      Building the workflow was only half the job. The real challenge was making
+      it reliable enough to operate without constant human supervision.
+    </p>
+
+    <div class="principle-grid">
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>AI reasons. Code decides.</h3>
+        <p>The LLM performs classification, while JavaScript validates every decision before execution.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Structured outputs</h3>
+        <p>The model returns predictable JSON instead of free text, allowing deterministic downstream automation.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Prompt injection protection</h3>
+        <p>User input is isolated from system instructions to reduce prompt manipulation risks.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Fail-safe validation</h3>
+        <p>Invalid or incomplete AI responses never reach the CRM. The workflow exits safely instead.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Observability</h3>
+        <p>Each workflow execution is logged, making failures traceable and debugging significantly easier.</p>
+      </div>
+
+      <div class="principle-card">
+        <span class="principle-check">✓</span>
+        <h3>Scalable architecture</h3>
+        <p>The workflow is modular, allowing additional channels, CRMs, or scoring rules without redesigning the system.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow"></p>
+
+    <h2 class="section-title">
+      What this project taught me.
+    </h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div class="timeline-body">
+          <h3>LLMs should assist, not control.</h3>
+          <p>AI performs best when deterministic code validates every critical decision before execution.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div class="timeline-body">
+          <h3>Reliability is a feature.</h3>
+          <p>Retry logic, validation, and observability matter just as much as the AI model itself.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div class="timeline-body">
+          <h3>Good architecture scales.</h3>
+          <p>Separating AI reasoning from workflow execution makes future improvements far easier.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow">Outcome</p>
+
+    <h2 class="section-title">
+      The result.
+    </h2>
+
+    <p class="section-lede">
+      The completed system reduced manual lead triage by automatically qualifying
+      enquiries, validating AI decisions before execution, routing qualified leads
+      into the CRM, and notifying the sales team of high-priority opportunities.
+      The architecture was designed to be reliable, observable, and easily extended
+      as business requirements evolved.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <p class="section-eyebrow">Continue Reading</p>
+
+    <h2 class="section-title">
+      Explore another project.
+    </h2>
+
+    <div class="contact-actions">
+
+      <a href="index.html" class="btn btn-ghost">
+        ← Back to Portfolio
+      </a>
+
+      <a href="case-study-support.html" class="btn btn-primary">
+        AI Customer Support →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+</main>
+
+<script src="main3.js" defer></script>
+</body>
+</html>
