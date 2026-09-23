@@ -151,6 +151,12 @@ main, header, footer{ position:relative; z-index:1; }
   letter-spacing:0.02em;
 }
 .nav-mark svg{ color:var(--accent); }
+.nav-logo{
+  width:28px;
+  height:28px;
+  object-fit:contain;
+  display:block;
+}
 .nav-links{
   display:flex;
   gap:32px;
